@@ -1,0 +1,18 @@
+{
+  "data_loading": {
+    "description": "Load the dataset of Olympic gold medals from a CSV file.",
+    "code_snippet": "data = pd.read_csv('olympic_gold_medals.csv')"
+  },
+  "data_cleaning": {
+    "description": "Clean the dataset by removing rows with missing values and duplicates.",
+    "code_snippet": "data.dropna(inplace=True)\ndata.drop_duplicates(inplace=True)"
+  },
+  "analysis": {
+    "description": "Analyze the data to count gold medals per country by Olympic year.",
+    "code_snippet": "medals_per_country_year = data.groupby(['Country', 'Year'])['Gold'].sum().reset_index()"
+  },
+  "visualization": {
+    "description": "Visualize the results using a bar chart to display gold medals per country by Olympic year.",
+    "code_snippet": "sns.barplot(x='Year', y='Gold', hue='Country', data=medals_per_country_year)"
+  }
+}
