@@ -31,3 +31,25 @@ data = pd.read_csv('olympic_gold_medals.csv')
 ```
 
 This will load the dataset into a Pandas DataFrame, ready for analysis.
+
+## Daily Affirmations Application
+
+The Daily Affirmations Application is designed to automatically post a new affirmation daily, helping users start their day with positive thoughts. This application sources affirmations from a predefined list and posts them at a specified time each day.
+
+### Setting Up and Running the Application
+
+To set up and run the Daily Affirmations Application, you will need Python installed, preferably version 3.8 or above. The application requires the following dependencies:
+- requests
+- schedule
+
+You can install these dependencies using pip:
+```
+pip install requests schedule
+```
+
+After installing the necessary dependencies, run the application by executing the `daily_affirmations_app.py` script in your terminal:
+```
+python daily_affirmations_app.py
+```
+
+This will initiate the application, and it will automatically post a daily affirmation at the specified time.
