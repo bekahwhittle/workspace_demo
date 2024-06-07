@@ -53,3 +53,9 @@ python daily_affirmations_app.py
 ```
 
 This will initiate the application, and it will automatically post a daily affirmation at the specified time.
+
+## Deploying to GitHub Pages
+
+The project is now successfully deployed to GitHub Pages. You can access the project at the following URL: [https://bekahwhittle.github.io/workspace_demo/](https://bekahwhittle.github.io/workspace_demo/).
+
+A `gh-pages` branch has been created to host the static content, including the `index.html` file which serves as the entry point for the GitHub Pages site. This setup allows for the easy sharing and demonstration of the project's features.
